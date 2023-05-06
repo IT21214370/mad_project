@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="newtopic" type="id"/>
+    <item name="btn7" type="id"/>
+    <item name="btn6" type="id"/>
+    <item name="textView" type="id"/>
+</resources>

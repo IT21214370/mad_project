@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "325246070031",
+    "project_id": "mad-project-2-da341",
+    "storage_bucket": "mad-project-2-da341.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325246070031:android:cb818974836926492fe27a",
+        "android_client_info": {
+          "package_name": "com.example.cocozone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325246070031-v34jpold7i7vhevmv7jvfm9pubtaar77.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdGIaCiPkoRGFGlAIy3YzHRV8pjVIulo0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325246070031-v34jpold7i7vhevmv7jvfm9pubtaar77.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325246070031:android:0c691d41ec65dfe92fe27a",
+        "android_client_info": {
+          "package_name": "com.example.crudadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325246070031-v34jpold7i7vhevmv7jvfm9pubtaar77.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdGIaCiPkoRGFGlAIy3YzHRV8pjVIulo0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325246070031-v34jpold7i7vhevmv7jvfm9pubtaar77.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

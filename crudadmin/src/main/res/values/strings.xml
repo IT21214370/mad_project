@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">CRUD Admin</string>
+    <string name="upload">Upload</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="jee">spider</string>
+    <string name="post_your_coconut_product_requirement">Post Your Coconut Product Requirement</string>
+    <string name="enter_phone_number">Enter phone number</string>
+    <string name="enter_name">Enter name</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_topic">Enter topic</string>
+    <string name="enter_quentity">Enter quentity</string>
+    <string name="enter_discription">Enter discription</string>
+    <string name="post">POST</string>
+    <string name="enter_topics">Enter Topic</string>
+    <string name="enter_names">Enter Name</string>
+    <string name="enter_your_phone_numbers">Enter Your Phone Number</string>
+    <string name="enter_quentitys">Enter Quentity</string>
+    <string name="enter_discriptions">Enter Discription</string>
+    <string name="updates">Update</string>
+    <string name="enter_emails">Enter Email</string>
+    <string name="Enter_topic">Enter Topic</string>
+    <string name="deletes">Delete</string>
+</resources>

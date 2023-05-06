@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/upload"
+    tools:context=".UploadActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="170dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/newtopic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="@string/jee"
+            android:paddingEnd="10dp"
+            android:text="@string/post_your_coconut_product_requirement"
+            android:textColor="#E91E63"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry,TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/uploadName"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:autofillHints=""
+            android:background="@drawable/lavender_border"
+            android:gravity="start|center_vertical"
+            android:hint="@string/enter_name"
+            android:inputType="textPersonName"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            tools:ignore="TextContrastCheck,VisualLintTextFieldSize" />
+
+        <EditText
+            android:id="@+id/uploadPhone"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:autofillHints=""
+            android:background="@drawable/lavender_border"
+            android:gravity="start|center_vertical"
+            android:hint="@string/enter_phone_number"
+            android:inputType="phone"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            tools:ignore="TextContrastCheck,VisualLintTextFieldSize" />
+
+        <EditText
+            android:id="@+id/uploadEmail"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:autofillHints=""
+            android:background="@drawable/lavender_border"
+            android:gravity="start|center_vertical"
+            android:hint="@string/enter_email"
+            android:inputType="textEmailAddress"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            tools:ignore="TextContrastCheck,VisualLintTextFieldSize" />
+
+        <EditText
+            android:id="@+id/uploadTopic"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:autofillHints=""
+            android:background="@drawable/lavender_border"
+            android:gravity="start|center_vertical"
+            android:hint="@string/enter_topic"
+            android:inputType="text"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            tools:ignore="TextContrastCheck,VisualLintTextFieldSize" />
+
+        <EditText
+            android:id="@+id/uploadQuentity"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:autofillHints=""
+            android:background="@drawable/lavender_border"
+            android:gravity="start|center_vertical"
+            android:hint="@string/enter_quentity"
+            android:inputType="number"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            tools:ignore="TextContrastCheck,VisualLintTextFieldSize" />
+
+        <EditText
+            android:id="@+id/uploadDiscription"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:autofillHints=""
+            android:background="@drawable/lavender_border"
+            android:gravity="start|center_vertical"
+            android:hint="@string/enter_discription"
+            android:inputType="text"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            tools:ignore="TextContrastCheck,VisualLintTextFieldSize" />
+
+        <Button
+            android:id="@+id/postButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@color/lavender"
+            android:text="@string/post"
+            android:textSize="24sp"
+            app:cornerRadius="20dp"
+            tools:ignore="TextContrastCheck,VisualLintBounds,VisualLintButtonSize" />
+
+    </LinearLayout>
+
+</LinearLayout>
